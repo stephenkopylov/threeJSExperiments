@@ -37,7 +37,7 @@ export const Candles: React.FC = (props) => {
                 onPointerOver={(event) => hover(true)}
                 onPointerOut={(event) => hover(false)}>
                 <boxGeometry args={[1, 1, 1]}/>
-                <meshPhongMaterial color={hovered ? 'hotpink' : 'orange'} opacity={0.5} shininess={100}
+                <meshPhongMaterial color={hovered ? 'hotpink' : 'pink'} opacity={0.5} shininess={100}
                                    specular={'green'}/>
             </mesh>
         </group>
